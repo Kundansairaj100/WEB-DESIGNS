@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+.body
+{
+    margin: 0;
+    max-height: fit-content ;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #40c9ff,#e81cff);
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+}
+.navbar h1
+{
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    margin-top: 0.4em;
+    padding: 0.2rem;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.opts
+{
+    background-color: white;
+    width: 40%;
+    height: 3rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    margin-left: 19rem;
+    justify-items: center;
+    
+}
+.opts ul
+{
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 0.7rem;
+}
+.opts ul li
+{
+    text-decoration: none;
+    display: inline;
+    align-items: center;
+    margin-left: 3.5rem;
+
+}
+.opts a
+{
+    text-decoration: none;
+    background: -webkit-linear-gradient(#439cfb, #f187fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+
+}
+.silo ul
+{
+    list-style: none;
+    text-decoration: none;
+    align-content: center;
+    margin: 0 auto;
+}
+.silo ul li
+{
+    display: inline;
+
+}
+.silo a
+{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.7rem;
+    border: 0.25rem solid black;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.vid 
+{
+    width: 100%;
+    max-height: 60%;
+    margin-bottom: 0;
+}
+.vid video
+{
+    width: 100vw;
+    max-height: 50%;
+}
+.vid h1
+{
+    position: relative;
+    top: 10rem;
+    margin-left: 1rem;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: -webkit-linear-gradient(#fcb0f3, #3d05dd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    
+}
+.intro
+{
+    background-image: linear-gradient(to bottom right, #07c8f9,#0d41e1);
+    position: relative;
+    bottom: 0.35em;
+    padding: 1rem;
+    height: 100vh;
+}
+.intro h1
+{
+    margin-left: 2rem;
+    margin-top: 5rem;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.intro p
+{
+    max-width: 350px;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+.end
+{
+    background-image: linear-gradient(to right, #0e1c26, #2a454b, #294861);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 1.5rem;
+}
+.end h1
+{
+    color: white;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
