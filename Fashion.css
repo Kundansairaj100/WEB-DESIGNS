@@ -1,0 +1,74 @@
+.black
+{
+    background-color: black;
+    border: 0px 0px 2px 0px solid white;
+    height: 100px;
+    position: relative;
+
+}
+.black img
+{
+    border: 2px solid white;
+    height: 70px;
+    position: relative;
+    top: 10px;
+}
+#b2
+{
+    border: 2px solid lightblue;
+    height: 70px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.customer
+{
+    position:relative;
+    left: 620px;
+    top:15px;
+}
+.carousel
+{
+    position: relative;
+    top:5px;
+    width: 500px;
+    left:245px;
+    border: 5px solid black;
+}
+.shop
+{
+    position: relative;
+    left: 340px;
+    top:15px;
+    margin-right: 2px;
+}
+.black h3
+{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.introp
+{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    top:100px;
+    left: 50px;
+}
+.shop-1
+{
+    position: relative;
+    top: 60px;
+    left:40px;
+}
+.bn
+{
+    position: relative;
+    top:40px;
+    left:480px;
+}
+
+
